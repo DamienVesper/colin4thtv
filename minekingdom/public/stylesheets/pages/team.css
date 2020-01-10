@@ -1,0 +1,26 @@
+.app h2 {
+    display: flex;
+    justify-content: center;
+    margin: 15px 0px;
+}
+
+.team-card img {
+    width: 150px;
+    border-radius: 5px;
+    margin: 8px;
+}
+.user-info span {
+    display: inline-block;
+    margin-top: 15px;
+    font-weight: bold;
+}
+.user-info {
+    margin-left: 15px;
+    flex: 1;
+}
+@media only screen and (min-width: 768px) {
+    .team-card {
+        display: flex;
+        min-height: 150px;
+    }
+}

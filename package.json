@@ -1,0 +1,30 @@
+{
+  "name": "minekingdom",
+  "version": "1.0.0",
+  "description": "A high-quality Discord Bot where you mine and hunt in an enhanced mining simulator, directly on Discord.",
+  "main": "router.js",
+  "scripts": {
+    "start": "node server.js",
+    "build": "express --view=pug minekingdom"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/DamienVesper/MineKingdom.git"
+  },
+  "keywords": [
+    "mineking",
+    "minekingdom",
+    "discord-bot"
+  ],
+  "author": "DamienVesper",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/DamienVesper/MineKingdom/issues"
+  },
+  "homepage": "https://github.com/DamienVesper/MineKingdom#readme",
+  "dependencies": {
+    "express": "^4.17.1",
+    "express-generator": "^4.16.1",
+    "pug": "^2.0.4"
+  }
+}

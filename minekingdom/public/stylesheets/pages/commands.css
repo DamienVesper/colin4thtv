@@ -1,0 +1,30 @@
+.cmd-aria h2 {
+    display: flex;
+    justify-content: center;
+    margin-top: 2rem;
+    padding-bottom: 7.5px;
+    border-bottom: 2px solid #000;
+}
+.cmd-aria .ccontainer {
+    display: block;
+    width: 100%;
+    height: auto;
+    padding: 8px;
+}
+.cmd-aria .ccontainer:not(:last-child) {
+    padding-bottom: 14px;
+    border-bottom: 1px solid #aaa;
+}
+.ccontainer .cname { font-size: 20px; }
+.ccontainer .cdesc {
+    display: block;
+    color: #333;
+    margin: 15px 0px;
+}
+.ccontainer .cinfo { border-collapse: collapse; }
+.aliases span {
+    background-color: rgba(200, 200, 200, .4);
+    color: #ff3860;
+    border-radius: 2.5px;
+}
+.aliases span:first-child { margin-left: 5px; }
