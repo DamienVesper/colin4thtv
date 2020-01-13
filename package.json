@@ -1,11 +1,11 @@
 {
-  "name": "minekingdom",
+  "name": "colin4thtv",
   "version": "1.0.0",
-  "description": "A high-quality Discord Bot where you mine and hunt in an enhanced mining simulator, directly on Discord.",
-  "main": "router.js",
+  "description": "A site for colin4thtv.",
+  "main": "server.js",
   "scripts": {
-    "start": "node server.js",
-    "build": "express --view=pug minekingdom"
+    "start": "node ./colin4thtv/bin/www",
+    "build": "express --view=pug colin4thtv"
   },
   "repository": {
     "type": "git",
@@ -23,8 +23,13 @@
   },
   "homepage": "https://github.com/DamienVesper/MineKingdom#readme",
   "dependencies": {
+    "cookie-parser": "~1.4.4",
+    "debug": "~2.6.9",
+    "dotenv": "^8.2.0",
     "express": "^4.17.1",
     "express-generator": "^4.16.1",
+    "http-errors": "~1.6.3",
+    "morgan": "~1.9.1",
     "pug": "^2.0.4"
   }
 }

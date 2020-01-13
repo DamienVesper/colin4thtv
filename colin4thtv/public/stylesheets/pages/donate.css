@@ -1,0 +1,22 @@
+.container { display: flex; }
+.container > * { width: 50%; }
+h2 {
+    display: flex;
+    justify-content: center;
+    margin: 10px 0px;
+}
+.container span {
+    display: flex;
+    justify-content: center;
+    margin: 10px 0px;
+    text-align: center;
+}
+table {
+    margin: auto;
+    border: 1px solid #000;
+}
+td {
+    padding: 8px;
+    border: 1px solid #000;
+}
+td:first-child { text-align: center; }

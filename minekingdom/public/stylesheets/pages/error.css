@@ -1,6 +1,0 @@
-/* .app { background-image: } */
-.app > * {
-    display: flex;
-    justify-content: center;
-}
-.app h1 { font-size: 4rem; }

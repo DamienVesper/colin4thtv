@@ -1,0 +1,6 @@
+extends ./layout/_full
+
+block append head
+    link(rel="stylesheet", href="/stylesheets/pages/live.css")
+block app
+    iframe(src="/twitch/live", frameborder="0")
