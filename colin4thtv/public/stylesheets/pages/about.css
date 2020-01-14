@@ -1,0 +1,6 @@
+.container { width: 75%; }
+span {
+    display: flex;
+    justify-content: center;
+}
+a.g-link { margin: 0px 5px; }

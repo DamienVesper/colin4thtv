@@ -1,18 +1,17 @@
 extends ./layout/_full
 
 block append head
-    link(rel="stylesheet", href="/stylesheets/pages/index.css")
+    link(rel="stylesheet", href="/stylesheets/pages/commands.css")
 block app
     span.page-desc View commands that you can use.
     .container
         .nightbot
+            h2 
+                a(href="https://nightbot.tv/t/colin4thtv/commands") Nightbot
             table
-                thead
-                    th Name
-                    th Response
                 tbody
                     tr
-                        td !badday
+                        td !50v50
                         td !badday
                         td !bagory
                     tr
@@ -91,3 +90,37 @@ block app
                         td !whydoesthiscommandexist
                         td !wins
                         td !youtube
+        .streamelements
+            h2
+                a(href="https://streamelements.com/colin4thtv/commands") StreamElements
+            table
+                tbody
+                    tr
+                        td !commands
+                        td !enter
+                        td !giveaway
+                    tr
+                        td !next
+                        td !quote add/remove
+                        td !rename
+                    tr
+                        td !song
+                        td !tip
+                        td !uptime
+                    tr
+                        td !when
+                        td !wrongsong
+                        td !command
+                    tr
+                        td !editcounter
+                        td !kappagen
+                        td !pause
+                    tr
+                        td !ping
+                        td !play
+                        td !removesong
+                    tr
+                        td !skip
+                        td !songqueue
+                        td !srclear
+                    tr

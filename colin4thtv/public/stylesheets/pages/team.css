@@ -1,8 +1,8 @@
 .container { 
-    margin-top: 25px;
     display: flex;
+    justify-content: space-evenly;
+    margin-top: 25px;
 }
-.container > * { width: 50%; }
 .container > * > * {
     display: flex;
     justify-content: center;

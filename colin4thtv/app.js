@@ -6,6 +6,7 @@ var logger = require(`morgan`);
 
 var indexRouter = require(`./routes/index`);
 var twitchRouter = require(`./routes/twitch`);
+let rr = require(`./routes/redirect`);
 
 var app = express();
 
@@ -21,6 +22,7 @@ app.use(express.static(path.join(__dirname, `public`)));
 
 app.use(`/`, indexRouter);
 app.use(`/twitch`, twitchRouter);
+app.use(`/r`, rr);
 
 // catch 404 and forward to error handler
 app.use((req, res, next) => next(createError(404)));
